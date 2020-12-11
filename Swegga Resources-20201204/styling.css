@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85%;
+  background-color: #4766b8;
+  margin: 0;
+  padding: 0;
+}
+#page {
+  align-content: center;
+  background-color: white;
+  height: 400px;
+  width: 765px;
+  margin: 10px auto;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+#sidebar {
+  width: 150px;
+  height: 370px;
+  background-color: white;
+  margin-bottom: 0.7em;
+  float: left;
+}
+
+#banner {
+  float: top;
+  height: 70px;
+  background-color: white;
+}
+
+#navigation {
+  height: 45px;
+  background-color: white;
+}
+.copyright {
+  font-size: 90%;
+  text-align: right;
+  margin: 0;
+}
+
+/* Table style*/
+
+caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  color: #4766b8;
+}
+
+td,
+th,
+table {
+  padding: 6px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.alignRight {
+  text-align: right;
+}

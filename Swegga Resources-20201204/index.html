@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styling.css">
+    <title></title>
+  </head>
+  <body>
+    <div id="page">
+    <img src="swegga.jpg" id="sidebar">
+    <img src="delivery.gif"id="banner">
+    <img src="links.gif" usemap="#links" id="navigation">
+    <map name="links">
+      <area target="" alt="" title="order.html" href="order.html" coords="95,37,8,5" shape="rect">
+      <area target="" alt="" title="service.html" href="service.html" coords="105,6,192,33" shape="rect">
+      <area target="" alt="" title="" href="products.html" coords="204,5,299,36" shape="rect">
+      <area target="" alt="" title="" href="order.html" coords="309,5,439,36" shape="rect">
+      <area target="" alt="" title="" href="contact.html" coords="447,3,554,37" shape="rect">
+    </map>
+    <div id="main">
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Products</h2>
+      <table>
+        <tr>
+          <th>Description</th>
+          <th>Size</th>
+          <th>Colour</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total </th>
+        </tr>
+        <tr>
+          <td><a href="#">Female Ski Jacket</a></td>
+          <td>
+              <select id="size" name="#">
+              <option value="Small" id="fSmall">Small</option>
+              <option value="Medium" id="fMedium">Medium</option>
+              <option value="Large" id="fLarge">Large</option>
+          </select>
+            <td>
+              <select id="color" name="#">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Black">Black</option>
+                <option value="Orange">Orange</option>
+            </select>
+            </td>
+            <td>
+              <p id="f_price">150.95</p>
+            </td>
+            <td>
+              <input type="text" size="6" id="f_input">
+            </td>
+            <td>
+              <label for="fem" id="ftotal"></label>
+            </td>
+          </td>
+        </tr>
+        
+          <tr>
+            <td><a href="#">Male Ski Jacket</a></td>
+            <td>
+              <select id="size" name="">
+                <option value="Small" id="mSmall">Small</option>
+                <option value="Medium" id="mMedium">Medium</option>
+                <option value="Large" id="mLarge">Large</option>
+            </select>
+              <td>
+                <select id="color" name="#">
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Black">Black</option>
+                  <option value="Orange">Orange</option>
+              </select>
+              </td>
+              <td>
+                <p id="m_price">180.95</p>
+              </td>
+              <td>
+                <input type="text" size="6" id="m_input">
+              </td>
+              <td>
+                <label for="fem" id="mtotal"></label>
+              </td>
+            </td>
+            
+            <tr>
+              <td colspan="4">
+                <p>Click to confirm and place your order</p>
+              </td>
+              <td>
+                <button type="button" name="button" onclick="totalcost()">Final Total </button>
+              </td>
+              <td> <label for="tot" id="total"></label> </td>
+            </tr>
+        
+      </table>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="order.js">
+
+    </script>
+  </body>
+</html>
